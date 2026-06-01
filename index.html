@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Delta VIP Car - Transporte exclusivo puerta a puerta en Ecuador. Rutas diarias entre Santo Domingo, Quito, Guayaquil, Manta y más. Seguridad, puntualidad y servicio VIP 24/7.">
+<meta name="keywords" content="transporte VIP Ecuador, transporte puerta a puerta, traslado aeropuerto, transporte ejecutivo, Delta VIP Car, rutas Ecuador">
+<meta name="author" content="Delta VIP Car">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.deltavipcar.com/">
+<meta property="og:title" content="Delta VIP Car | Transporte Exclusivo en Ecuador">
+<meta property="og:description" content="Transporte VIP puerta a puerta en Ecuador. Rutas diarias, traslados aeropuerto y servicio 24 horas. Tu seguridad, nuestro compromiso.">
+<meta property="og:image" content="Logosinfondo.png">
+<meta property="og:locale" content="es_EC">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://www.deltavipcar.com/">
+<meta property="twitter:title" content="Delta VIP Car | Transporte Exclusivo en Ecuador">
+<meta property="twitter:description" content="Transporte VIP puerta a puerta en Ecuador. Rutas diarias, traslados aeropuerto y servicio 24 horas.">
+<meta property="twitter:image" content="Logosinfondo.png">
+
+<title>Delta VIP Car | Transporte Exclusivo</title>
+<link rel="canonical" href="https://www.deltavipcar.com/">
+<link rel="icon" type="image/png" href="Logosinfondo.png">
+
+<!-- Preconnect & Preload Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Raleway:wght@300;400;500;600;700&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Delta VIP Car",
+  "description": "Servicio exclusivo de transporte puerta a puerta en Ecuador. Rutas diarias entre principales ciudades.",
+  "url": "https://www.deltavipcar.com/",
+  "image": "https://www.deltavipcar.com/imagenes/Logosinfondo.png",
+  "telephone": "+593-XX-XXXX-XXXX",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "EC",
+    "addressLocality": "Santo Domingo"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Santo Domingo" },
+    { "@type": "City", "name": "Quito" },
+    { "@type": "City", "name": "Guayaquil" },
+    { "@type": "City", "name": "Manta" },
+    { "@type": "City", "name": "Quevedo" }
+  ],
+  "openingHours": "Mo-Su 00:00-23:59",
+  "priceRange": "$$"
+}
+</script>
+</head>
+<body>
+
+<!-- Custom Cursor (desktop only) -->
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+
+<!-- Particles -->
+<canvas id="particles" aria-hidden="true"></canvas>
+
+<!-- Floating WA -->
+<a href="https://wa.link/5yei9f" target="_blank" class="wa-float" title="Contactar por WhatsApp" aria-label="Contactar por WhatsApp">💬</a>
+
+<!-- NAV -->
+<nav id="navbar" role="navigation" aria-label="Navegación principal">
+  <a href="#hero" class="nav-logo" aria-label="Delta VIP Car - Inicio">
+    <img src="Logosinfondo.png" alt="Logo Delta VIP Car" class="logo-img" loading="eager">
+    DELTA VIP CAR
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navMenu">
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+    <span class="nav-toggle-bar"></span>
+  </button>
+  <ul class="nav-links" id="navMenu" role="menubar">
+    <li role="none"><a href="#rutas" role="menuitem">Rutas</a></li>
+    <li role="none"><a href="#servicios" role="menuitem">Servicios</a></li>
+    <li role="none"><a href="#nosotros" role="menuitem">Nosotros</a></li>
+    <li role="none"><a href="#contacto" role="menuitem">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+
+  <!-- IMAGEN GRANDE DEL AUTO EN EL HERO -->
+  <div class="hero-car-showcase" aria-hidden="true">
+    <img src="cochesinfondo.png" alt="Vehículo premium de transporte ejecutivo Delta VIP Car" class="hero-car-img" loading="eager">
+    <div class="car-glow"></div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span></span>
+      Servicio Exclusivo de Transporte
+    </div>
+    <h1 class="hero-title">
+      <span class="line-delta">DELTA</span>
+      <span class="line-vip">VIP CAR</span>
+    </h1>
+    <p class="hero-sub">Tu seguridad. Nuestro compromiso.</p>
+    <div class="hero-cta">
+      <a href="https://wa.link/5yei9f" target="_blank" class="btn-primary" aria-label="Reservar ahora por WhatsApp">Reservar Ahora</a>
+      <a href="#rutas" class="btn-secondary">Ver Rutas</a>
+    </div>
+    <p class="hero-urgency">🕐 Cupos limitados por viaje · Reserva con anticipación</p>
+  </div>
+
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <div class="stats-grid">
+    <div class="stat-item reveal">
+      <span class="stat-num" data-target="7">0</span>
+      <span class="stat-label">Rutas Activas</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item reveal">
+      <span class="stat-num" data-target="24">0</span>
+      <span class="stat-label">Horas Disponibles</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item reveal">
+      <span class="stat-num" data-target="100">0</span>
+      <span class="stat-label">% Compromiso</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item reveal">
+      <span class="stat-num">★★★★★</span>
+      <span class="stat-label">Calidad VIP</span>
+    </div>
+  </div>
+</section>
+
+<!-- CÓMO FUNCIONA -->
+<section id="como-funciona">
+  <div class="section-header reveal">
+    <span class="section-label">Proceso Simple</span>
+    <h2 class="section-title">¿Cómo Funciona?</h2>
+    <div class="section-divider"></div>
+  </div>
+  <div class="steps-grid">
+    <div class="step-card reveal">
+      <div class="step-number">01</div>
+      <div class="step-icon" aria-hidden="true">📱</div>
+      <h3 class="step-title">Escríbenos</h3>
+      <p class="step-desc">Contáctanos por WhatsApp o redes sociales. Indica tu ruta, fecha y hora preferida.</p>
+    </div>
+    <div class="step-arrow" aria-hidden="true">→</div>
+    <div class="step-card reveal">
+      <div class="step-number">02</div>
+      <div class="step-icon" aria-hidden="true">✅</div>
+      <h3 class="step-title">Confirma tu Viaje</h3>
+      <p class="step-desc">Te confirmamos disponibilidad, punto de recogida exacto y detalles del servicio.</p>
+    </div>
+    <div class="step-arrow" aria-hidden="true">→</div>
+    <div class="step-card reveal">
+      <div class="step-number">03</div>
+      <div class="step-icon" aria-hidden="true">🚗</div>
+      <h3 class="step-title">Disfruta el Viaje</h3>
+      <p class="step-desc">Te recogemos puntualmente y te llevamos a tu destino con máxima comodidad y seguridad.</p>
+    </div>
+  </div>
+  <div class="steps-cta reveal">
+    <a href="https://wa.link/5yei9f" target="_blank" class="btn-primary" aria-label="Reservar mi viaje ahora">Reservar Mi Viaje</a>
+  </div>
+</section>
+
+<!-- RUTAS -->
+<section id="rutas">
+  <div class="routes-container">
+    <div class="section-header reveal">
+      <span class="section-label">Cobertura Nacional</span>
+      <h2 class="section-title">Rutas Puerta a Puerta</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="ornament-divider reveal">
+      <div class="ornament-line"></div>
+      <div class="ornament-diamond"></div>
+      <div class="ornament-line right"></div>
+    </div>
+    <div class="routes-grid">
+      <div class="route-card reveal">
+        <div class="route-daily">Diario</div>
+        <div class="route-origin">Santo Domingo</div>
+        <div class="route-arrow"><div class="route-arrow-line"></div></div>
+        <div class="route-dest">Quito</div>
+        <p class="route-bidirectional">↔ Ruta Bidireccional</p>
+      </div>
+      <div class="route-card reveal">
+        <div class="route-daily">Diario</div>
+        <div class="route-origin">Santo Domingo</div>
+        <div class="route-arrow"><div class="route-arrow-line"></div></div>
+        <div class="route-dest">Manta</div>
+        <p class="route-bidirectional">↔ Ruta Bidireccional</p>
+      </div>
+      <div class="route-card reveal">
+        <div class="route-daily">Diario</div>
+        <div class="route-origin">Santo Domingo</div>
+        <div class="route-arrow"><div class="route-arrow-line"></div></div>
+        <div class="route-dest">Guayaquil</div>
+        <p class="route-bidirectional">↔ Ruta Bidireccional</p>
+      </div>
+      <div class="route-card reveal">
+        <div class="route-daily">Diario</div>
+        <div class="route-origin">Quito</div>
+        <div class="route-arrow"><div class="route-arrow-line"></div></div>
+        <div class="route-dest">Guayaquil</div>
+        <p class="route-bidirectional">↔ Ruta Bidireccional</p>
+      </div>
+      <div class="route-card reveal">
+        <div class="route-daily">Diario</div>
+        <div class="route-origin">Manta</div>
+        <div class="route-arrow"><div class="route-arrow-line"></div></div>
+        <div class="route-dest">Quito</div>
+        <p class="route-bidirectional">↔ Ruta Bidireccional</p>
+      </div>
+    <div class="route-card reveal">
+      <div class="route-daily">Diario</div>
+      <div class="route-origin">Quevedo</div>
+      <div class="route-arrow"><div class="route-arrow-line"></div></div>
+      <div class="route-dest">Quito</div>
+      <p class="route-bidirectional">↔ Ruta Bidireccional</p>
+    </div>
+  </div>
+  <div class="routes-cta reveal">
+    <a href="https://wa.link/5yei9f" target="_blank" class="btn-primary" aria-label="Consultar disponibilidad de rutas">Consultar Disponibilidad</a>
+    <p class="routes-urgency">⚡ Cupos limitados · Reserva con 24h de anticipación</p>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="section-header reveal">
+    <span class="section-label">Lo Que Ofrecemos</span>
+    <h2 class="section-title">Nuestros Servicios</h2>
+    <div class="section-divider"></div>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <span class="service-icon" role="img" aria-label="Servicio puerta a puerta">🚗</span>
+      <h3 class="service-title">Puerta a Puerta</h3>
+      <p class="service-desc">Te recogemos y llevamos directamente a tu destino.</p>
+    </div>
+    <div class="service-card reveal">
+      <span class="service-icon" role="img" aria-label="Traslados aeropuerto">✈️</span>
+      <h3 class="service-title">Aeropuertos</h3>
+      <p class="service-desc">Traslados desde y hacia los aeropuertos. Puntualidad garantizada para que nunca pierdas tu vuelo.</p>
+    </div>
+    <div class="service-card reveal">
+      <span class="service-icon" role="img" aria-label="Envíos y encomiendas">📦</span>
+      <h3 class="service-title">Envíos y Encomiendas</h3>
+      <p class="service-desc">Transporte seguro de paquetes, documentos y encomiendas entre ciudades con confirmación de entrega.</p>
+    </div>
+    <div class="service-card reveal">
+      <span class="service-icon" role="img" aria-label="Servicio 24 horas">🕐</span>
+      <h3 class="service-title">Servicio 24 Horas</h3>
+      <p class="service-desc">Fletes y traslados disponibles las 24 horas del día. Estamos cuando más nos necesitas, sin restricciones de horario.</p>
+    </div>
+  </div>
+  <div class="services-cta reveal">
+    <a href="https://wa.link/5yei9f" target="_blank" class="btn-secondary" aria-label="Solicitar servicio personalizado">Solicitar Servicio Personalizado</a>
+  </div>
+</section>
+
+<!-- NOSOTROS / WHY US -->
+<section id="nosotros">
+  <div class="section-header reveal">
+    <span class="section-label">¿Por qué elegirnos?</span>
+    <h2 class="section-title">La Diferencia Delta</h2>
+    <div class="section-divider"></div>
+  </div>
+  <div class="why-wrapper">
+    <div class="why-visual">
+      <div class="why-ring ring-1"><div class="ring-dot"></div></div>
+      <div class="why-ring ring-2"><div class="ring-dot ring-dot-red"></div></div>
+      <div class="why-ring ring-3"><div class="ring-dot"></div></div>
+      <div class="why-center-icon">🛡️</div>
+    </div>
+    <ul class="why-list">
+      <li class="why-item">
+        <div class="why-check" role="img" aria-label="Seguridad">🔒</div>
+        <div class="why-text">
+          <h4>Seguridad Prioritaria</h4>
+          <p>No somos un taxi. Cada cliente es tratado con máxima prioridad y confidencialidad. Tu seguridad es nuestro primer valor.</p>
+        </div>
+      </li>
+      <li class="why-item">
+        <div class="why-check" role="img" aria-label="Puntualidad">⏱️</div>
+        <div class="why-text">
+          <h4>Puntualidad Garantizada</h4>
+          <p>Respetamos tu tiempo. Llegamos cuando lo prometemos, sin excusas ni retrasos innecesarios.</p>
+        </div>
+      </li>
+      <li class="why-item">
+        <div class="why-check" role="img" aria-label="Trato VIP">👔</div>
+        <div class="why-text">
+          <h4>Trato Exclusivo VIP</h4>
+          <p>Conductores profesionales, vehículos premium. Una experiencia de transporte que supera tus expectativas.</p>
+        </div>
+      </li>
+      <li class="why-item">
+        <div class="why-check" role="img" aria-label="Cobertura nacional">🗺️</div>
+        <div class="why-text">
+          <h4>Cobertura Nacional</h4>
+          <p>Conectamos las principales ciudades del Ecuador con rutas diarias y bajo demanda para donde necesites llegar.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- BRAND STRIP -->
+<section id="marca" style="padding: 60px 5%;">
+  <div class="brand-strip">
+    <div class="brand-pill reveal"><div class="dot"></div> Transporte Seguro</div>
+    <div class="brand-pill reveal"><div class="dot"></div> Servicio VIP</div>
+    <div class="brand-pill reveal"><div class="dot"></div> 24/7 Disponible</div>
+    <div class="brand-pill reveal"><div class="dot"></div> Ecuador</div>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="contact-wrapper">
+    <div class="section-header reveal">
+      <span class="section-label">Comunícate con Nosotros</span>
+      <h2 class="section-title">Reserva Tu Viaje</h2>
+      <div class="section-divider"></div>
+    </div>
+    <p class="contact-intro reveal">
+      ¿Listo para vivir una experiencia de transporte diferente? Contáctanos por cualquiera de nuestras plataformas y agenda tu servicio. Respuesta inmediata garantizada.
+    </p>
+    <div class="social-links reveal">
+      <a href="https://wa.link/5yei9f" target="_blank" class="social-btn whatsapp" aria-label="Contactar por WhatsApp">
+        <span class="social-icon" role="img" aria-hidden="true">💬</span> WhatsApp
+      </a>
+      <a href="https://www.instagram.com/deltavipcar/" target="_blank" class="social-btn instagram" aria-label="Seguir en Instagram">
+        <span class="social-icon" role="img" aria-hidden="true">📸</span> Instagram
+      </a>
+      <a href="https://www.facebook.com/share/18o4b9qqbE/" target="_blank" class="social-btn facebook" aria-label="Seguir en Facebook">
+        <span class="social-icon" role="img" aria-hidden="true">📘</span> Facebook
+      </a>
+    </div>
+    <a href="https://wa.link/5yei9f" target="_blank" class="cta-whatsapp reveal" aria-label="Reservar por WhatsApp">
+      ✦ Reservar por WhatsApp ✦
+    </a>
+    <p class="contact-urgency reveal">🕐 Respuesta garantizada en menos de 15 minutos</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="footer-logo">DELTA VIP CAR</span>
+      <p class="footer-tagline">Tu seguridad primero</p>
+    </div>
+    <div class="footer-links">
+      <h4>Navegación</h4>
+      <ul>
+        <li><a href="#rutas">Rutas</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contacto</h4>
+      <p><a href="https://wa.link/5yei9f" target="_blank">WhatsApp</a></p>
+      <p><a href="https://www.instagram.com/deltavipcar/" target="_blank">Instagram</a></p>
+      <p><a href="https://www.facebook.com/share/18o4b9qqbE/" target="_blank">Facebook</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-copy">© 2025 Delta VIP Car · Todos los derechos reservados · www.deltavipcar.com</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
